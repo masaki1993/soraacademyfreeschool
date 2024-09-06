@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.header {
+    background-color: #ffdbb5;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 150px;
+}
+
+.navigation a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eaf5ff;
+    padding: 40px;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    color: #0056b3;
+}
+
+.hero-content p {
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #ffd700;
+    color: #333;
+    padding: 10px 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero-image {
+    width: 50%;
+}
+
+.campus {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+}
+
+.campus h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.campus-gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.campus-item {
+    text-align: center;
+    margin: 20px;
+}
+
+.campus-item img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.consultation {
+    background-color: #ffebcd;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.consultation-actions .button {
+    background-color: #ff6347;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.features {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.features h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.features-cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.feature {
+    background-color: #f0f8ff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
